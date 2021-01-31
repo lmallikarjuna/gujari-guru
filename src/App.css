@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+body {
+  background-color: #222f44;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +44,128 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+
+nav {
+  align-items: center;
+  backdrop-filter: blur(20px);
+  background-color: rgba(14, 24, 42, 0.9);
+  border-bottom-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 1px 2px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  transform: none;
+  width: 100%;
+  margin: 0;
+}
+
+div.flex.flex-grow.items-center {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 1;
+}
+
+a.flex.items-center {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  text-decoration: inherit inherit inherit;
+}
+
+div.relative.flex.flex-col.items-center.justify-center.text-center.pt-8.css-185l6eu {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 860px;
+  justify-content: center;
+  padding-top: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+div.grid.grid-flow-col.gap-2.items-center.sm:text-sm.text-xs {
+  align-items: center;
+  box-sizing: border-box;
+  column-gap: 0.5rem;
+  display: grid;
+  font-size: 1rem;
+  grid-auto-flow: column;
+  row-gap: 0.5rem;
+}
+
+a {
+  background-color: transparent;
+  border-radius: 0.375rem;
+  box-sizing: border-box;
+  opacity: 0.75;
+  padding: 0.5rem 0.75rem;
+  text-decoration: inherit inherit inherit;
+  transition: opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+  opacity: 1;
+}
+
+div.text-text {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.text-paragraph {
+  box-sizing: border-box;
+  color: #f7fafc;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 65ch;
+  padding: 3rem;
+}
+
+p {
+  box-sizing: border-box;
+  margin: 2em 0;
+}
+
+.header-container {
+  padding-top: 10rem;
+}
+
+h1 {
+  font-size: 8rem;
+  margin: 2rem;
+  font-weight: 700;
+}
+
+p.tag-line {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.774);
+}
+
+@media only screen and (max-width: 772px) {
+  h1 {
+    font-size: 3.2rem;
+    margin-top: 8rem;
+  }
+}
+
+.card {
+  border: 2px white solid;
 }
